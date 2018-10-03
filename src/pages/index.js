@@ -18,8 +18,7 @@ const IndexPage = () => (
           Just another developer
         </h2>
 
-        <div class="social-links">
-
+        <div class="subtitle">
           <a class="link" target="_blank" rel="noopener noreferrer" href="https://facebook.com/aminshahgilani">
             <span class="icon is-large">
               <i class="fab fa-2x fa-facebook-square"></i>
@@ -109,7 +108,12 @@ const IndexPage = () => (
               <i class="fas fa-2x fa-envelope-square"></i>
             </span>
           </a>
+        </div>
 
+        <div class="subtitle">
+            <a class="button is-rounded is-success">About</a>
+            &nbsp;&nbsp;
+            <a class="button is-rounded is-primary">Resume</a>
         </div>
       </div>
     </div>
