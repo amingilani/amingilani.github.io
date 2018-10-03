@@ -1,5 +1,5 @@
 import React from 'react'
-// import { Link } from 'gatsby'
+import { Link } from 'gatsby'
 
 import Layout from '../components/layout'
 
@@ -111,9 +111,9 @@ const IndexPage = () => (
         </div>
 
         <div class="subtitle">
-            <a class="button is-rounded is-success">About</a>
+            <Link to="about" class="button is-rounded is-success">About</Link>
             &nbsp;&nbsp;
-            <a class="button is-rounded is-primary">Resume</a>
+            <a class="button is-rounded is-primary" target="_blank" rel="noopener noreferrer" href="https://www.toptal.com/resume/amin-shah-gilani#contract-just-respected-software-architects">Resume</a>
         </div>
       </div>
     </div>
