@@ -115,6 +115,15 @@ const IndexPage = () => (
               &nbsp;&nbsp;
               <a className="button is-rounded is-primary" target="_blank" rel="noopener noreferrer" href="https://www.toptal.com/resume/amin-shah-gilani#contract-just-respected-software-architects">Resume</a>
           </div>
+
+          <div className="subtitle">
+            <a href="mailto:helloamin@gilani.me?subject=Hello" target="_blank" rel="noopener noreferrer" class="button is-rounded is-active">
+              <span class="icon">
+                <i class="fas fa-at"></i>
+              </span>
+              <span>Say hello</span>
+            </a>
+          </div>
         </div>
       </div>
     </section>

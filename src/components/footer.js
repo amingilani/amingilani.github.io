@@ -15,8 +15,7 @@ const Footer = () => (
          </span>
 
         {} by Amin Shah Gilani
-        </p>
-        <p>
+        <br />
         The content on this website
         is released under <a href="https://creativecommons.org/share-your-work/public-domain/cc0">CC0</a>.
       </p>
