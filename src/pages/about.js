@@ -1,26 +1,25 @@
 import React from 'react'
-import {Link} from 'gatsby'
 
 import Layout from '../components/layout'
 
-const AboutPage = () => (<Layout>
-  <section class="section">
-    <div class="container">
+const AboutPage = () => (<Layout location='/about'>
+  <section className="section">
+    <div className="container">
 
-      <div class="columns">
-        <div class="column is-half is-offset-one-quarter">
+      <div className="columns">
+        <div className="column is-half is-offset-one-quarter">
 
-          <div class="card">
-            <div class="card-content">
-              <div class="media">
-                <div class="media-left">
-                  <figure class="image is-96x96">
-                    <img alt="Amin Shah Gilani" class="" src="https://www.gravatar.com/avatar/e97345f1125996ea6e1a8394fd45da28?s=500"/>
+          <div className="card">
+            <div className="card-content">
+              <div className="media">
+                <div className="media-left">
+                  <figure className="image is-96x96">
+                    <img alt="Amin Shah Gilani" className="" src="https://www.gravatar.com/avatar/e97345f1125996ea6e1a8394fd45da28?s=500"/>
                   </figure>
                 </div>
-                <div class="media-content">
-                  <p class="title is-4">Amin Shah Gilani</p>
-                  <p class="subtitle is-6">
+                <div className="media-content">
+                  <p className="title is-4">Amin Shah Gilani</p>
+                  <p className="subtitle is-6">
                     <strong>Legal:</strong>{' '}
                     SM Amin Gilani
                     <br/>
@@ -33,7 +32,7 @@ const AboutPage = () => (<Layout>
                 </div>
               </div>
 
-              <div class="content">
+              <div className="content">
                 Amin is a developer and entrepreneur who loves writing clean, test-driven Ruby and ES6 code—wrapped in perfectly crafted containers for CI/CD. In one of his two hackathon wins, he was awarded the first prize from over 300 global entries. In his free time, he authors technical content, contributes to open source projects, and builds fun things. He also co-founded two companies, one of which raised venture capital in Silicon Valley.
               </div>
             </div>
@@ -42,12 +41,12 @@ const AboutPage = () => (<Layout>
         </div>
       </div>
 
-      <div class="columns">
-        <div class="column is-one-third is-offset-one-third">
+      <div className="columns">
+        <div className="column is-one-third is-offset-one-third">
 
-          <div class="content">
+          <div className="content">
             <h2>Currently</h2>
-            <ul class="skill-list">
+            <ul className="skill-list">
               <li>CTO @{' '}
                 <a href="https://nazdeeq.com">Nazdeeq</a>
               </li>
@@ -139,7 +138,7 @@ const AboutPage = () => (<Layout>
               </li>
             </ul>
             <h2>Skills</h2>
-            <ul class="skill-list">
+            <ul className="skill-list">
               <li>HTML5 — Haml — ERB</li>
               <li>Responsive (Mobile First)</li>
               <li>CSS3 (Sass)</li>
