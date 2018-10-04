@@ -4,11 +4,12 @@ import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
 
 import Header from './header'
+import Footer from './footer'
+import './layout.css'
 import 'bulma/css/bulma.css'
 import '@fortawesome/fontawesome-free/css/all.css'
-import './layout.css'
 
-const Layout = ({ children }) => (
+const Layout = ({ noHeader, children }) => (
   <StaticQuery
     query={graphql`
       query SiteTitleQuery {
@@ -30,10 +31,12 @@ const Layout = ({ children }) => (
         >
           <html lang="en" />
         </Helmet>
+        <Header noHeader={noHeader} siteTitle={data.site.siteMetadata.title} />
         <div
         >
           {children}
         </div>
+        <Footer />
       </>
     )}
   />
@@ -41,6 +44,7 @@ const Layout = ({ children }) => (
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
+  noHeader: PropTypes.node.isRequired,
 }
 
 export default Layout
