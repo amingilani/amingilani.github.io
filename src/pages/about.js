@@ -2,7 +2,7 @@ import React from 'react'
 
 import Layout from '../components/layout'
 
-const AboutPage = () => (<Layout location='/about'>
+const AboutPage = () => (<Layout>
   <section className="section">
     <div className="container">
 

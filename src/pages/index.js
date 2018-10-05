@@ -4,7 +4,7 @@ import { Link } from 'gatsby'
 import Layout from '../components/layout'
 
 const IndexPage = () => (
-  <Layout location="/" noHeader="true">
+  <Layout noHeader="true">
     <section className="hero is-light is-medium">
       <div className="hero-body">
         <div className="container has-text-centered">
