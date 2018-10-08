@@ -110,9 +110,8 @@ const IndexPage = () => (
             </a>
           </div>
 
-          <div className="subtitle">
+          <div style={{display: 'inline-block'}} className="buttons subtitle">
               <Link to="about" className="button is-rounded is-success">About</Link>
-              &nbsp;&nbsp;
               <a className="button is-rounded is-primary" target="_blank" rel="noopener noreferrer" href="https://www.toptal.com/resume/amin-shah-gilani#contract-just-respected-software-architects">Resume</a>
           </div>
 
