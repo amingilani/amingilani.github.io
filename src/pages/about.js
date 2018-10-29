@@ -33,7 +33,7 @@ const AboutPage = () => (<Layout>
               </div>
 
               <div className="content">
-                Amin is a developer and entrepreneur who loves writing clean, test-driven Ruby and ES6 code—wrapped in perfectly crafted containers for CI/CD. In one of his two hackathon wins, he was awarded the first prize from over 300 global entries. In his free time, he authors technical content, contributes to open source projects, and builds fun things. He also co-founded two companies, one of which raised venture capital in Silicon Valley.
+                Amin is a developer and entrepreneur who loves writing clean, test-driven Ruby and ES6 code&mdash;wrapped in perfectly crafted containers for CI/CD. In one of his two hackathon wins, he was awarded the first prize from over 300 global entries. In his free time, he authors technical content, contributes to open source projects, and builds fun things. He also co-founded two companies, one of which raised venture capital in Silicon Valley.
               </div>
             </div>
           </div>
@@ -85,10 +85,10 @@ const AboutPage = () => (<Layout>
               <li>
                 <a href="https://nazdeeq.com">Nazdeeq</a>
               </li>
-              <li>Payload Technologies —
+              <li>Payload Technologies &mdash;{' '}
                 <em>defunct</em>
               </li>
-              <li>Treebark —
+              <li>Treebark &mdash;{' '}
                 <em>defunct</em>
               </li>
             </ul>
@@ -139,18 +139,18 @@ const AboutPage = () => (<Layout>
             </ul>
             <h2>Skills</h2>
             <ul className="skill-list">
-              <li>HTML5 — Haml — ERB</li>
+              <li>HTML5 &mdash; Haml &mdash; ERB</li>
               <li>Responsive (Mobile First)</li>
               <li>CSS3 (Sass)</li>
               <li>CSS Frameworks (Semantic UI, Bootstrap, Bulma)</li>
-              <li>Javascript/ES6 (Design Patterns, Testes)</li>
+              <li>Javascript/ES6 (Design Patterns, Testing)</li>
               <li>NodeJS</li>
               <li>ReactJS</li>
               <li>Webpack</li>
-              <li>Git — GitHub — GitLab</li>
+              <li>Git &mdash; GitHub &mdash; GitLab</li>
               <li>Ruby &amp; Ruby on Rails</li>
               <li>Postgresql</li>
-              <li>PostgreSQL — MongoDB</li>
+              <li>PostgreSQL &mdash; MongoDB</li>
               <li>CI/CD</li>
               <li>Docker</li>
               <li>Kubernetes</li>
