@@ -1,0 +1,81 @@
+==================================================================
+https://keybase.io/gilani
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://gilani.me
+  * I am gilani (https://keybase.io/gilani) on keybase.
+  * I have a public key with fingerprint 50BF C259 6FD1 A0A1 D639  D177 49B9 F5CB 607D C363
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101a16201f15b7e53798d0fcfbd81a99c2b139a845825ea496512b8928f10dfd4460a",
+      "fingerprint": "50bfc2596fd1a0a1d639d17749b9f5cb607dc363",
+      "host": "keybase.io",
+      "key_id": "49b9f5cb607dc363",
+      "kid": "0101a16201f15b7e53798d0fcfbd81a99c2b139a845825ea496512b8928f10dfd4460a",
+      "uid": "8bfd641c7b7afcb144254b2d7bd93c00",
+      "username": "gilani"
+    },
+    "merkle_root": {
+      "ctime": 1541597719,
+      "hash_meta": "7463dc0046f7d04036fe4c119c3b564671f4a041237bf645d256a4e4cea3f8ac",
+      "seqno": 3914481
+    },
+    "revoke": {
+      "sig_ids": [
+        "9a71a7e70e9c0b475a42f63f6b5b55f8fdce40bc2e95268bff5d03e75f7669bf0f"
+      ]
+    },
+    "service": {
+      "hostname": "gilani.me",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1541597730,
+  "expire_in": 157680000,
+  "prev": "7fa245cd743216a49e420afc5bf1fdeff4bad09c100806dc669c035ba1d444fd",
+  "seqno": 60,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.80
+Comment: https://keybase.io/crypto
+
+yMKzAnicrZNfaBxFHMcvTdOk16ap0KqgUhiMLeWazuzOn52ztXnwQaMSoZhWUnvM
+37v1ktvL7ibpEaIiiIrYvhSERrShiKGU2j8UaUVaQ6GHfVBpzgetCkatRsEXRR8s
+OhsUUXx0X3Z3+P6+v+/vMzOXu9tz+bZGc7Z17qvbZdvV+bHx3PCXS2AKyEg3QHEK
+VM3yy4xok6SlaqhBEUAEkUDUg8giIpkhPuOBhlZZqQMkOFeeRD4XASaBR4zAnBLk
+yYB7gUVQW40xhQIUgA1rZRPX47CWOlsCpVUe4dRqJKBAmvpcI8Ywl9wSJSlkWvnU
+d4WVKMkqXDgpEtMXRm7N/ZSW4/2H/n/OPb5sF0irKUaKSSaskghjj2DpaSY19xWE
+mTAxcU2MGqcuhyOiFoLpAhg1cXXElOIoSjO0Kg0zASIYEc4Y4m48kVRKoyYVro5h
+6mvnhqllGmLoU2uwQogrXxKKKUMWC4iR5zNpKSbaI1RgJzHCt4FQLkVixmoRKPrc
+RQyQSxCbiahqsuZJWHbQElAcBlwwJJhh0HAFJWZEYM9S31JJJCE2sFoZDKXyDCce
+dcNboqFvGLGMUi4ttOCJ6axZPBGqZfNsl/4xfZ/7LoB6HKWRikbcciVN60kxg5I2
+6plu0sjSnw4lGda0OyCuYsLESRjVHCSn/BcvHxaAOVAPY1MKMwVhNIDuyfqYiQyg
+FR4mSjPse8ih4QZ70G0YkRZZbazFUmjIFYIwgFQrN4yCPpHuAGKMrf4bIHWmqSg7
+T4etJtLx2IDp+Uv7Vuba8rlVHSuym5PLr17/13366O7O38Ot91TPPfBjd3fcfuzp
+3uc2HVnYtOanh+cP3u+/cWzr5MIX21ofvr/zwanXnnprR31moHNww4vwuy3D62Z6
+j5D9cOFic2EXaDw00F/ee+rZ681Pdx785Psiwkn7k8cfe/twvveDm/fNDbUO75q7
+0tFeebTYffHbxaWXTu3vPNB/pjrY15NjQWVzfK0qf9585trpWX7HjRMbWl3XZ795
+571bxofePHqjsmXV2XTo0Mo9a+9dXGztPv94z4kV+Y0nC9WXxd7BX3s61p+98Ev4
+6m93zl3dXl+ztHZ1/82xk+92Ba9Umy98dnTb859vzx+6bfhSlwkeUY0Lr898TSZ/
+GLtr48ddtzY7rvStmxl4ZscfySZ16g==
+=CkjQ
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/gilani
+
+==================================================================
