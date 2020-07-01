@@ -126,8 +126,8 @@ const IndexPage = ({ data }) => (
             <p>
               And addictive products are not banned. When away from PUBG, a
               person does not exhibit physical withdrawal symptoms. Furthermore,
-              even if PUBG were addictive, addictive products, such as those
-              containing nicotine are not banned in Pakistan.
+              <em>even if PUBG were addictive</em>, addictive products, such {}
+              <strong>products containing nicotine are not banned in Pakistan</strong>.
             </p>
 
             <h3>2. Calling PUBG a waste of time is unwarranted</h3>
@@ -179,14 +179,14 @@ const IndexPage = ({ data }) => (
 
             <div className="has-text-centered">{cta()}</div>
 
-            <h2>Everone Is Impacted</h2>
+            <h2>Everyone Is Impacted</h2>
             <p>
               <strong>
                 {' '}
                 Even if you are not directly impacted by this ban,{' '}
               </strong>
               the reasons given are so vague and infactual that this will set a
-              precendence for them to ban something you care about tomorrow.
+              precendence for the PTA to ban something you care about in the future.
             </p>
 
             <div className="has-text-centered">{cta()}</div>
