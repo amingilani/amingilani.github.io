@@ -9,6 +9,10 @@ module.exports = {
   },
   plugins: [
     'gatsby-plugin-react-helmet',
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
+    'gatsby-plugin-offline',
+    `gatsby-plugin-sass`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -16,7 +20,7 @@ module.exports = {
         short_name: 'Amin Shah Gilani',
         start_url: '/',
         display: `minimal-ui`,
-        icon: 'src/images/favicon.png', // This path is relative to the root of the site.
+        icon: 'src/data/images/favicon.png', // This path is relative to the root of the site.
         background_color: `f5f5f5`,
         theme_color: '#f5f5f5'
       },
@@ -28,6 +32,11 @@ module.exports = {
         head: true
       },
     },
-    'gatsby-plugin-offline',
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/src/data/`,
+      },
+    },
   ],
 }
