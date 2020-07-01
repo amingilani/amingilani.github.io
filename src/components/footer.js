@@ -14,10 +14,10 @@ const Footer = () => (
            <i class="fas fa-coffee"></i>
          </span>
 
-        {} by Amin Shah Gilani
+        {} by <a href="https://gilani.me">Amin Shah Gilani</a> in Lahore, Pakistan
         <br />
         The content on this website
-        is released under <a href="https://creativecommons.org/share-your-work/public-domain/cc0">CC0</a>.
+        is usually released under <a href="https://creativecommons.org/share-your-work/public-domain/cc0">CC0</a>.
       </p>
     </div>
   </footer>)
