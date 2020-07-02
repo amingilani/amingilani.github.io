@@ -64,7 +64,8 @@ const IndexPage = ({ data }) => (
           <h2 className="subtitle">
             <strong>
               PTA has banned PUBG for unwise reasons, take action to save our
-              freedom
+              freedom<br />
+              <span class="has-text-danger">#UNBANPUBG #InternetFreedom #DigitalRights</span>
             </strong>
           </h2>
 
@@ -74,15 +75,41 @@ const IndexPage = ({ data }) => (
               <i className="fas fa-ban fa-stack-2x has-text-danger"></i>
             </span>
           </h2>
-          <div className="subtitle">Click the button below to open a prefilled email template</div>
+          <div className="subtitle">Click to send a an email template</div>
           <div className="subtitle">{cta()}</div>
           <div className="subtitle">
-            <a href="#what-happened">
+            <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="#what-happened">
               Or learn more
               <span className="icon has-text">
                 <i className="fas fa-arrow-down"></i>
               </span>
             </a>
+          </div>
+          <div className="subtitle">Share:</div>
+          <div class="subtitle columns is-mobile">
+            <div class="column is-narrow is-1 is-offset-5">
+              <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="whatsapp://send?text=Take action against PTA's capricious PUBG ban! https://amin.gilani.me/take-action-pubg-ban/" data-action="share/whatsapp/share">
+                <span className="icon has-text">
+                  <i className="fab fa-whatsapp fa-2x"></i>
+                </span>
+              </a>
+            </div>
+            <div class="column is-narrow is-1">
+            <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://twitter.com/intent/tweet?text=Take action against PTA's capricious PUBG ban! https://amin.gilani.me/take-action-pubg-ban/ via @amingilani">
+              <span className="icon has-text">
+                <i className="fab fa-twitter fa-2x"></i>
+              </span>
+            </a>
+            </div>
           </div>
         </div>
       </div>
@@ -138,7 +165,10 @@ const IndexPage = ({ data }) => (
             <p>This has been studied and concluded multiple times:</p>
             <ul>
               <li>
-                <a href="https://doi.org/10.1007/s10964-013-9986-5">
+                <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://doi.org/10.1007/s10964-013-9986-5">
                   Ferguson and Olson 2014
                 </a>{' '}
                 concluded that &quot;results did not support the hypothesis that
@@ -147,7 +177,10 @@ const IndexPage = ({ data }) => (
               </li>
               <li>
                 In another paper,{' '}
-                <a href="https://doi.org/10.1016/j.chb.2015.04.021">
+                <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://doi.org/10.1016/j.chb.2015.04.021">
                   Ferguson et al. 2015
                 </a>{' '}
                 further concluded that &quot;youth with prior mental health
@@ -157,7 +190,10 @@ const IndexPage = ({ data }) => (
               </li>
               <li>
                 Most importantly, in{' '}
-                <a href="https://doi.org/10.1186/1471-2458-10-286">
+                <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://doi.org/10.1186/1471-2458-10-286">
                   Allahverdipour et al. 2010
                 </a>
                 , a study in an Islamic country found positive impacts on mental
@@ -206,7 +242,10 @@ const IndexPage = ({ data }) => (
               </strong> {}
               PTA is still seeking comments from the public on the matter. {}
               <strong><span className="has-text-danger">Take action now!</span></strong> {}
-              Email the PTA at <a href={ctaLink}>consultation-pubg@pta.gov.pk</a>.
+              Email the PTA at <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href={ctaLink}>consultation-pubg@pta.gov.pk</a>.
               Tap the button below to open a pre-filled email template explaining these
               reasons to the PTA.
             </p>
