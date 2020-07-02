@@ -26,7 +26,7 @@ const IndexPage = () => (
               className="link"
               target="_blank"
               rel="noopener noreferrer"
-              href="https://facebook.com/aminshahgilani"
+              href="https://facebook.com/itsamingilani"
             >
               <span className="icon is-large">
                 <i className="fab fa-2x fa-facebook-square"></i>
