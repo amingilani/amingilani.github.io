@@ -6,58 +6,33 @@ import { Location } from '@reach/router'
 
 import Header from './header'
 import Footer from './footer'
+import Seo from './seo'
 import './layout.css'
 import 'bulma/css/bulma.css'
 import '@fortawesome/fontawesome-free/css/all.css'
 
-const Layout = ({ noHeader, children }) => (
+const Layout = ({ noHeader, seoData, children }) => (
   <StaticQuery
     query={graphql`
       query SiteTitleQuery {
         site {
           siteMetadata {
             title
-            description
-            image
-            baseUrl
           }
         }
       }
     `}
+
     render={data => (
       <Location>
         {({ location: { pathname } }) => (
           <>
-            <Helmet
-              title={data.site.siteMetadata.title}
-              meta={[
-                { name: 'author', content: data.site.siteMetadata.author },
-                {
-                  name: 'description',
-                  content: data.site.siteMetadata.description,
-                },
-                { name: 'keywords', content: data.site.siteMetadata.keywords },
-                { name: 'image', content: data.site.siteMetadata.image },
-
-                { property: 'og:title', content: data.site.siteMetadata.title },
-                {
-                  property: 'og:description',
-                  content: data.site.siteMetadata.description,
-                },
-                { property: 'og:image', content: data.site.siteMetadata.image },
-                { property: 'og:type', content: 'website' },
-                {
-                  property: 'og:url',
-                  content: `${data.site.siteMetadata.baseUrl}${pathname}`,
-                },
-              ]}
-              link={[
-                { rel: 'canonical', href: data.site.siteMetadata.baseUrl },
-              ]}
-            >
-              <html lang="en" />
-            </Helmet>
-
+            <Seo
+            title={seoData.title}
+            description={seoData.description}
+            image={seoData.image}
+            article={seoData.article}
+             />
             <Header
               noHeader={noHeader}
               siteTitle={data.site.siteMetadata.title}

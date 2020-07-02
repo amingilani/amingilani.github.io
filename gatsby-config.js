@@ -2,11 +2,13 @@ module.exports = {
   siteMetadata: {
     author: 'Amin Shah Gilani',
     title: 'Amin Shah Gilani',
+    titleTemplate: "%s · Amin Shah Gilani",
     description: 'Amin Shah Gilani’s personal corner of the internet',
     image:
       'https://www.gravatar.com/avatar/e97345f1125996ea6e1a8394fd45da28?s=500',
     baseUrl: 'https://amin.gilani.me',
     keywords: 'Amin Shah Gilani, personal, developer',
+    twitterUsername: "@amingilani",
   },
   plugins: [
     'gatsby-plugin-react-helmet',

@@ -1,15 +1,15 @@
 import React from 'react'
 
 const Footer = () => (
-  <footer class="footer has-background-light">
-    <div class="content has-text-centered">
+  <footer className="footer has-background-light">
+    <div className="content has-text-centered">
       <p>
-        <span class="icon">
-          <i class="fas fa-code"></i>
+        <span className="icon">
+          <i className="fas fa-code"></i>
         </span>
         {} with {}
-        <span class="icon">
-          <i class="fas fa-coffee"></i>
+        <span className="icon">
+          <i className="fas fa-coffee"></i>
         </span>
         {} by <a href="https://gilani.me">Amin Shah Gilani</a> in Lahore,
         Pakistan
