@@ -89,7 +89,7 @@ const IndexPage = ({ data }) => (
             </a>
           </div>
           <div className="subtitle">Share:</div>
-          <div class="subtitle columns is-mobile">
+          <div class="subtitle columns">
             <div class="column is-narrow is-1 is-offset-5">
               <a
               target="_blank"
@@ -104,7 +104,7 @@ const IndexPage = ({ data }) => (
             <a
             target="_blank"
             rel="noopener noreferrer"
-            href="https://twitter.com/intent/tweet?text=Take action against PTA's capricious PUBG ban! https://amin.gilani.me/take-action-pubg-ban/ via @amingilani">
+            href="https://twitter.com/intent/tweet?text=Take%20action%20against%20PTA%27s%20capricious%20PUBG%20ban%21%20https%3A%2F%2Famin.gilani.me%2Ftake-action-pubg-ban%2F%20%23PUBG%20%23PUBGBAN%20%23UNBANPUBG%20%23NOBANPUBG%20via%20%40amingilani">
               <span className="icon has-text">
                 <i className="fab fa-twitter fa-2x"></i>
               </span>
