@@ -1,13 +1,11 @@
 import React from 'react'
-// import { Link } from 'gatsby'
 import { graphql } from 'gatsby'
 import Img from 'gatsby-image'
 import Layout from '../components/layout'
-import './pubg-pta-action.scss'
 
 export const query = graphql`
   query MyQuery {
-    file(relativePath: { eq: "images/pubg-pta-action/pubg-helmet.jpg" }) {
+    file(relativePath: { eq: "images/take-action-pubg/pubg-helmet.jpg" }) {
       childImageSharp {
         # Specify the image processing specifications right in the query.
         fluid {
