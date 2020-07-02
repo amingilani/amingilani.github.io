@@ -39,7 +39,7 @@ const IndexPage = ({ data }) => (
     noHeader="true"
     seoData={{
       title: "Click Here To Take Action Against PTA's PUBG Ban",
-      description: 'PTA has banned PUBG based on baseless claims. But it isn\'t too late. Click here and tell PTA how you feel immediately',
+      description: 'PTA has banned PUBG based on baseless claims. But it isn\'t too late. Click here immediately to tell PTA how you feel',
       image: '/images/pubg/pubg-banner.jpg',
       ogImageWidth: '1200',
       ogImageHeight: '675',
