@@ -58,7 +58,7 @@ const SEO = ({seoData}) => {
       {ogImageWidth && <meta property="og:image:width" content={ogImageWidth} />}
       {ogImageHeight && <meta property="og:image:height" content={ogImageHeight} />}
 
-
+      {`<script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/9f8b3faec654f3522dfef4059/245eec5628f6ecc631381696f.js");</script>`}
 
       <meta name="twitter:card" content="summary_large_image" />
 
