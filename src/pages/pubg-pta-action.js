@@ -26,10 +26,10 @@ const cta = () => {
       href={ctaLink}
       target="_blank"
       rel="noopener noreferrer"
-      class="button is-rounded is-primary"
+      className="button is-rounded is-primary"
     >
-      <span class="icon">
-        <i class="fas fa-at"></i>
+      <span className="icon">
+        <i className="fas fa-at"></i>
       </span>
       <span>Tell PTA to stop</span>
     </a>
@@ -37,7 +37,15 @@ const cta = () => {
 }
 
 const IndexPage = ({ data }) => (
-  <Layout noHeader="true">
+  <Layout
+    noHeader="true"
+    seoData={{
+      title: "Take Action Against PTA's PUBG Ban",
+      description: 'PTA has banned PUBG based on baseless claims. But it isn\'t too late, voice your concern action to PTA immediately.',
+      image: 'images/pubg/pubg-helmet.jpg',
+      article: true,
+    }}
+  >
     <section className="hero is-warning is-medium">
       <div className="hero-body">
         <div className="container has-text-centered">
@@ -61,9 +69,9 @@ const IndexPage = ({ data }) => (
           </h2>
 
           <h2 className="subtitle">
-            <span class="icon">
-              <i class="fas fa-gamepad fa-stack-1x"></i>
-              <i class="fas fa-ban fa-stack-2x has-text-danger"></i>
+            <span className="icon">
+              <i className="fas fa-gamepad fa-stack-1x"></i>
+              <i className="fas fa-ban fa-stack-2x has-text-danger"></i>
             </span>
           </h2>
 
@@ -71,50 +79,52 @@ const IndexPage = ({ data }) => (
           <div className="subtitle">
             <a href="#what-happened">
               Or learn more
-              <span class="icon has-text">
-                <i class="fas fa-arrow-down"></i>
+              <span className="icon has-text">
+                <i className="fas fa-arrow-down"></i>
               </span>
             </a>
           </div>
         </div>
       </div>
     </section>
-    <section class="section">
+    <section className="section">
       <div className="columns">
         <div className="column is-6 is-offset-3">
           <div className="content">
             <h2 id="what-happened">What Happened?</h2>
             <p>
               PTA has temporarily suspended PUBG citing concerns that it is:
-              <ol>
-                <li>"addictive",</li>
-                <li>a "wastage of time"; and</li>
-                <li>
-                  "poses [a] serious negative impact on physical and
-                  psychological health".
-                </li>
-              </ol>
-              <blockquote class="twitter-tweet">
-                <p lang="en" dir="ltr">
-                  PTA has received numerous complaints against PUBG wherein it
-                  is stated that the game is addictive, wastage of time and
-                  poses serious negative impact on physical and psychological
-                  health of the children.{' '}
-                  <a href="https://t.co/GDJqTeuTaf">
-                    pic.twitter.com/GDJqTeuTaf
-                  </a>
-                </p>
-                &mdash; PTA (@PTAofficialpk){' '}
-                <a href="https://twitter.com/PTAofficialpk/status/1278324087459323905?ref_src=twsrc%5Etfw">
-                  July 1, 2020
-                </a>
-              </blockquote>{' '}
-              <script
-                async
-                src="https://platform.twitter.com/widgets.js"
-                charset="utf-8"
-              ></script>
             </p>
+
+            <ol>
+              <li>"addictive",</li>
+              <li>a "wastage of time"; and</li>
+              <li>
+                "poses [a] serious negative impact on physical and
+                psychological health".
+              </li>
+            </ol>
+
+            <blockquote className="twitter-tweet">
+              <p lang="en" dir="ltr">
+                PTA has received numerous complaints against PUBG wherein it
+                is stated that the game is addictive, wastage of time and
+                poses serious negative impact on physical and psychological
+                health of the children.{' '}
+                <a href="https://t.co/GDJqTeuTaf">
+                  pic.twitter.com/GDJqTeuTaf
+                </a>
+              </p>
+              &mdash; PTA (@PTAofficialpk){' '}
+              <a href="https://twitter.com/PTAofficialpk/status/1278324087459323905?ref_src=twsrc%5Etfw">
+                July 1, 2020
+              </a>
+            </blockquote>{' '}
+            <script
+              async
+              src="https://platform.twitter.com/widgets.js"
+              charSet="utf-8"
+            ></script>
 
             <div className="has-text-centered">{cta()}</div>
 
@@ -198,4 +208,3 @@ const IndexPage = ({ data }) => (
 )
 
 export default IndexPage
-//pta-press-release
