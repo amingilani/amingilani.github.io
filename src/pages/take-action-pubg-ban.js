@@ -74,7 +74,7 @@ const IndexPage = ({ data }) => (
               <i className="fas fa-ban fa-stack-2x has-text-danger"></i>
             </span>
           </h2>
-
+          <div className="subtitle">Click the button below to open a prefilled email template</div>
           <div className="subtitle">{cta()}</div>
           <div className="subtitle">
             <a href="#what-happened">
