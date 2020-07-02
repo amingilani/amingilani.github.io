@@ -71,8 +71,7 @@ const IndexPage = ({ data }) => (
 
           <h2 className="subtitle">
             <span className="icon">
-              <i className="fas fa-gamepad fa-stack-1x"></i>
-              <i className="fas fa-ban fa-stack-2x has-text-danger"></i>
+              <i className="fas fa-gamepad fa-2x"></i>
             </span>
           </h2>
           <div className="subtitle">Click to send a an email template</div>
