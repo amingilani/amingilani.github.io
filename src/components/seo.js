@@ -17,8 +17,15 @@ const SEO = ({seoData}) => {
     twitterUsername,
   } = site.siteMetadata
 
-  const { title, description, image, article }=seoData;
-  
+  const {
+    title,
+    description,
+    image,
+    article,
+    ogImageWidth,
+    ogImageHeight,
+  }=seoData;
+
   const seo = {
     title: title || defaultTitle,
     description: description || defaultDescription,
@@ -47,6 +54,11 @@ const SEO = ({seoData}) => {
       )}
 
       {seo.image && <meta property="og:image" content={seo.image} />}
+
+      {ogImageWidth && <meta property="og:image:width" content={ogImageWidth} />}
+      {ogImageHeight && <meta property="og:image:height" content={ogImageHeight} />}
+
+
 
       <meta name="twitter:card" content="summary_large_image" />
 
