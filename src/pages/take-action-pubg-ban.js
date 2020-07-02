@@ -206,7 +206,9 @@ const IndexPage = ({ data }) => (
               </strong> {}
               PTA is still seeking comments from the public on the matter. {}
               <strong><span className="has-text-danger">Take action now!</span></strong> {}
-              Email the PTA at <a href={ctaLink}>consultation-pubg@pta.gov.pk</a>
+              Email the PTA at <a href={ctaLink}>consultation-pubg@pta.gov.pk</a>.
+              Tap the button below to open a pre-filled email template explaining these
+              reasons to the PTA.
             </p>
             <div className="has-text-centered">{cta()}</div>
           </div>
