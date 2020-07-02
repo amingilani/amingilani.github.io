@@ -78,8 +78,6 @@ const IndexPage = ({ data }) => (
           <div className="subtitle">{cta()}</div>
           <div className="subtitle">
             <a
-            target="_blank"
-            rel="noopener noreferrer"
             href="#what-happened">
               Or learn more
               <span className="icon has-text">
