@@ -22,8 +22,6 @@ const cta = () => {
   return (
     <a
       href={ctaLink}
-      target="_blank"
-      rel="noopener noreferrer"
       className="button is-rounded is-primary"
     >
       <span className="icon">
