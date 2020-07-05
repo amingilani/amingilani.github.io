@@ -72,7 +72,7 @@ const IndexPage = ({ data }) => (
               <i className="fas fa-gamepad fa-2x"></i>
             </span>
           </h2>
-          <div className="subtitle">Click the button open a ready-to-send email</div>
+          <div className="subtitle">Click the button to open a ready-to-send email</div>
           <div className="subtitle">{cta()}</div>
           <div className="subtitle">
             <a
