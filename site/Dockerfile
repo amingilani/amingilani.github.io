@@ -1,8 +1,17 @@
 # build the site
-FROM node:13-buster-slim as build
+FROM node:13-alpine as build
 WORKDIR /app
 COPY package.json package-lock.json ./
-RUN npm ci
+RUN apk --no-cache add --virtual native-deps \
+  build-base python libpng-dev bash
+
+RUN apk add --update --no-cache --repository http://dl-3.alpinelinux.org/alpine/edge/community --repository http://dl-3.alpinelinux.org/alpine/edge/main vips-dev
+
+RUN  npm install --quiet node-gyp -g
+RUN  npm ci --quiet
+
+
+
 COPY . ./
 RUN npm run build
 
