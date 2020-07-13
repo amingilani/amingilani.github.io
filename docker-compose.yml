@@ -12,3 +12,9 @@ services:
     depends_on:
       - site
     restart: always
+  tor:
+    build: ./tor
+    network_mode: host
+    depends_on:
+      - site
+    restart: always
