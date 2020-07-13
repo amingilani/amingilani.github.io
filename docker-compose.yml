@@ -1,0 +1,14 @@
+version: '2'
+services:
+  site:
+    build: ./site
+    network_mode: host
+    restart: always
+    ports:
+      - "80:3000"
+  tunnel:
+    build: ./tunnel
+    network_mode: host
+    depends_on:
+      - site
+    restart: always

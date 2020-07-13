@@ -1,0 +1,8 @@
+{
+  local_certs
+}
+:80 {
+	encode zstd gzip
+  root * /site
+  file_server
+}
