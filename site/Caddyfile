@@ -2,6 +2,7 @@
   local_certs
 }
 :80 {
+  header Onion-Location http://{$TOR_HOSTNAME}{path}
 	encode zstd gzip
   root * /site
   file_server
