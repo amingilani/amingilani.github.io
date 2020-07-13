@@ -11,4 +11,4 @@ echo $TUNNEL_CERT | base64 -d > /etc/cloudflared/cert.pem
 echo 'Saved certificate, starting tunnel'
 
 # execute the tunnel
-./cloudflared tunnel --origincert /etc/cloudflared/cert.pem
+/cloudflared tunnel --origincert /etc/cloudflared/cert.pem
