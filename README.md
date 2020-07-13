@@ -4,7 +4,7 @@ Hi, this is the source code to my personal website.
 
 Used in this:
 
-+ GatsbyJS
++ [GatsbyJS](https://github.com/gatsbyjs/gatsby)
 + Bulma
 
 ## Docker Deploys
